@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0px;
+}
+
+footer{
+    position: relative;
+    height: 300px;
+    size: cover;
+    background-image: url("imagenes/bg.jpg");
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: aqua;
+    font-size: 23px;
+}
+
+nav{
+    display: inline;
+    margin: 0px 20px;
+}
+
+.links{
+    position: absolute;
+    top: 45%;
+    right:15%;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#copyright{
+    color: white;
+}
+
+.precios{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.precios li{
+    display: inline-block;
+    margin: 50px 10px;
+    padding: 30px 20px;
+    border: 3px solid black;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+    width: 30%;
+    vertical-align: top;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.precios li:hover{
+    border-color: aqua;
+}
+
+.precios li:active{
+    border-color: #5aa17f;
+}
+
+.precios h2{
+    font-size: 30px;
+}
+
+.valor{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.precios li:hover h2{
+    font-size: 35px;
+}
