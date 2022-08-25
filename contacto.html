@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barberia Alura - Contacto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos-contacto.css">
+</head>
+<body>
+    <header>    
+        <div class="box"><h1><img id="logo" src="imagenes/logo.png"></h1>
+        <div class="links">
+        <nav><a href="#">Home</a></nav>
+        <nav><a href="index.html">Productos</a></nav>
+        <nav><a href="contacto.html">Contacto</a></nav>
+            </div>
+        </div>
+    </header>
+    <main>    
+        <form>
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron">
+        <label for="email">Direccion Email</label>
+        <input type="email" placeholder="email@dominio.com" id="email" class="input-padron">
+        <label for="telefono">Telefono de contacto</label>
+        <input type="tel" placeholder="(XX) XXXX XXXX" id="telefono" class="input-padron">
+        <label for="mensaje"></label> Mensaje
+        <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+        <div>
+            <h4> ¿Como desea ser contactado? </h4>
+            <label for="email">
+                <input type="radio" name="radioboton" value="Email" id="email"> Email </label>
+            <label for="telefono">
+                <input type="radio" id="telefono" name="radioboton" value="Telefono"> Telefono </label>
+            <label for="whats">
+                <input type="radio" id="whats" name="radioboton" value="Whatsapp"> Whatsapp </label>
+        </div>
+        <h4> ¿En que dia desea ser atendido? </h4>
+        <select name="Dia atención" id="select">
+            <option value="Mañana"> Mañana </option>
+            <option value="Tarde"> Tarde </option>
+            <option value="Noche"> Noche </option>
+       
+        </select>
+        <label><input type="checkbox" class="checkbox">¿Desea recibir información de la Barberia en su email?</label>
+        <input type="submit">
+    </form>
+    </main>
+    <footer class="final">
+        <img src="imagenes/logo-blanco.png">
+        <p id="copyright">© Copyright Barbería Alura - 2020</p>
+    </footer>
+</body>
+</html>
