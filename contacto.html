@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>    
-        <div class="box"><h1><img id="logo" src="imagenes/logo.png"></h1>
+        <div class="box"><h1><img id="logo" src="imagenes/logo.png" alt="Logo de la barberia alura"></h1>
         <div class="links">
         <nav><a href="#">Home</a></nav>
         <nav><a href="index.html">Productos</a></nav>
@@ -19,35 +19,67 @@
     <main>    
         <form>
         <label for="nombreapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreapellido" class="input-padron">
+        <input type="text" id="nombreapellido" class="input-padron" required>
         <label for="email">Direccion Email</label>
-        <input type="email" placeholder="email@dominio.com" id="email" class="input-padron">
+        <input type="email" placeholder="email@dominio.com" id="email" class="input-padron" required>
         <label for="telefono">Telefono de contacto</label>
-        <input type="tel" placeholder="(XX) XXXX XXXX" id="telefono" class="input-padron">
+        <input type="tel" placeholder="(XX) XXXX XXXX" id="telefono" class="input-padron" required>
         <label for="mensaje"></label> Mensaje
-        <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
-        <div>
-            <h4> ¿Como desea ser contactado? </h4>
+        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+        <fieldset>
+            <legend> ¿Como desea ser contactado? </legend>
             <label for="email">
                 <input type="radio" name="radioboton" value="Email" id="email"> Email </label>
             <label for="telefono">
                 <input type="radio" id="telefono" name="radioboton" value="Telefono"> Telefono </label>
             <label for="whats">
-                <input type="radio" id="whats" name="radioboton" value="Whatsapp"> Whatsapp </label>
-        </div>
-        <h4> ¿En que dia desea ser atendido? </h4>
+                <input type="radio" id="whats" name="radioboton" value="Whatsapp" checked> Whatsapp </label>
+        </fieldset>
+        <fieldset>
+        <legend> ¿En que dia desea ser atendido? </legend>
         <select name="Dia atención" id="select">
-            <option value="Mañana"> Mañana </option>
-            <option value="Tarde"> Tarde </option>
-            <option value="Noche"> Noche </option>
-       
+            <option value="Mañana"> Lunes </option>
+            <option value="Tarde"> Miercoles </option>
+            <option value="Noche"> Viernes </option>
         </select>
-        <label><input type="checkbox" class="checkbox">¿Desea recibir información de la Barberia en su email?</label>
-        <input type="submit">
+        </fieldset>
+        <fieldset>
+            <legend> ¿En que Horario del dia desea ser atendido? </legend>
+            <select name="Dia atención" id="select">
+                <option value="Mañana"> Mañana </option>
+                <option value="Tarde"> Tarde </option>
+                <option value="Noche"> Noche </option>
+            </select>
+            </fieldset>
+        <label><input type="checkbox" class="checkbox" checked>¿Desea recibir información de la Barberia en su email?</label>
+        <input type="submit" class="enviar">
     </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Dias</th>
+                <th>Horarios</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+        <tr>
+            <td>Lunes</td>
+            <td>08h-20h</td>
+        </tr>
+        <tr>
+            <td>Miercoles</td>
+            <td>08h-20h</td>
+        </tr>
+        <tr>
+            <td>Viernes</td>
+            <td>08h-20h</td>
+        </tr>
+    </table>
     </main>
     <footer class="final">
-        <img src="imagenes/logo-blanco.png">
+        <img src="imagenes/logo-blanco.png" alt="Logo de la barberia alura">
         <p id="copyright">© Copyright Barbería Alura - 2020</p>
     </footer>
 </body>

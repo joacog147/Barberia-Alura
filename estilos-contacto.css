@@ -58,7 +58,7 @@ nav{
     color: white;
 }
 
-form label, form h4{
+form label, form legend{
     display: block;
     margin: 0 0 20px;
 }
@@ -77,4 +77,34 @@ form{
 
 .checkbox{
     margin: 20px 0;
+}
+
+.enviar{
+    color: white;
+    background: orange;
+    width: 20%;
+    padding: 5px 0;
+    font-size: 23px;
+    border-color: orange;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #e69138;
+    border-color: #e69138;
+    transform: scale(1.05);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+th{
+    background: orange;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 1.5px 1.5px;
 }
