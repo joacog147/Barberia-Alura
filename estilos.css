@@ -38,14 +38,8 @@ nav{
 
 .links{
     position: absolute;
-    top: 45%;
+    top: 25%;
     right:15%;
-}
-
-.box {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
 }
 
 #copyright{
@@ -59,6 +53,10 @@ nav{
     padding: 0 50px;
 }
 
+.img-barba{
+    width: 93.5%;
+}
+
 .precios li{
     display: inline-block;
     margin: 50px 10px;
@@ -69,7 +67,7 @@ nav{
     font-weight: bold;
     width: 30%;
     vertical-align: top;
-    box-sizing: border-box;
+    box-sizing:border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
@@ -92,4 +90,95 @@ nav{
 
 .precios li:hover h2{
     font-size: 35px;
+}
+
+/* CSS para nuestra Home page */
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal{
+    position: relative;
+    padding: 3em 12em;
+    background: #FEFEFE;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style:italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 7px;
+    clear: left ;
+    box-shadow: 3px 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.mapa{
+    padding: 3em;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.imagenDiferenciales{
+    width: 60%;
+}
+
+.video{
+    display: flex;
+    padding: 3em 24em;
+    background: linear-gradient(#888888, #5b5b5b);
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listaDiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagenDiferenciales{
+    width: 60%;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.contenido-mapa{
+    width: 940px;
+    margin: 0 auto;
 }

@@ -97,7 +97,9 @@ form{
 }
 
 table{
-    margin: 40px 40px;
+    margin: 10px 0;
+    float: right;
+    clear: right;
 }
 
 th{
@@ -107,4 +109,14 @@ th{
 td,th{
     border: 1px solid black;
     padding: 1.5px 1.5px;
+}
+
+#select{
+    float:none;
+    width: 20%;
+    padding: 5px 0;
+}
+
+legend{
+    padding: 5px 0;
 }

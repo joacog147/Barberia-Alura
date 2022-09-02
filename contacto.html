@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Barberia Alura - Contacto</title>
+    <title>Contacto - Barberia Alura</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilos-contacto.css">
 </head>
 <body>
     <header>    
-        <div class="box"><h1><img id="logo" src="imagenes/logo.png" alt="Logo de la barberia alura"></h1>
+        <div class="box">
+            <h1><img id="logo" src="imagenes/logo.png" alt="Logo de la barberia alura"></h1>
         <div class="links">
-        <nav><a href="#">Home</a></nav>
-        <nav><a href="index.html">Productos</a></nav>
-        <nav><a href="contacto.html">Contacto</a></nav>
-            </div>
+            <nav><a href="index.html">Home</a></nav>
+            <nav><a href="productos.html">Productos</a></nav>
+            <nav><a href="contacto.html">Contacto</a></nav>
         </div>
+        </div>
+    </header>
     </header>
     <main>    
         <form>
@@ -35,16 +37,40 @@
             <label for="whats">
                 <input type="radio" id="whats" name="radioboton" value="Whatsapp" checked> Whatsapp </label>
         </fieldset>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dias</th>
+                    <th>Horarios</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>08h-20h</td>
+            </tr>
+            <tr>
+                <td>Miercoles</td>
+                <td>08h-20h</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>08h-20h</td>
+            </tr>
+        </table>
         <fieldset>
-        <legend> ¿En que dia desea ser atendido? </legend>
-        <select name="Dia atención" id="select">
-            <option value="Mañana"> Lunes </option>
-            <option value="Tarde"> Miercoles </option>
-            <option value="Noche"> Viernes </option>
+            <legend> ¿En que dia desea ser atendido? </legend>
+            <select name="Dia atención" id="select">
+                <option value="Mañana"> Lunes </option>
+                <option value="Tarde"> Miercoles </option>
+                <option value="Noche"> Viernes </option>
         </select>
         </fieldset>
         <fieldset>
             <legend> ¿En que Horario del dia desea ser atendido? </legend>
+            
             <select name="Dia atención" id="select">
                 <option value="Mañana"> Mañana </option>
                 <option value="Tarde"> Tarde </option>
@@ -54,29 +80,6 @@
         <label><input type="checkbox" class="checkbox" checked>¿Desea recibir información de la Barberia en su email?</label>
         <input type="submit" class="enviar">
     </form>
-    <table>
-        <thead>
-            <tr>
-                <th>Dias</th>
-                <th>Horarios</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        </tbody>
-        <tr>
-            <td>Lunes</td>
-            <td>08h-20h</td>
-        </tr>
-        <tr>
-            <td>Miercoles</td>
-            <td>08h-20h</td>
-        </tr>
-        <tr>
-            <td>Viernes</td>
-            <td>08h-20h</td>
-        </tr>
-    </table>
     </main>
     <footer class="final">
         <img src="imagenes/logo-blanco.png" alt="Logo de la barberia alura">
