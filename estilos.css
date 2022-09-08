@@ -38,9 +38,16 @@ nav{
 
 .links{
     position: absolute;
-    top: 25%;
+    top: 45%;
     right:15%;
 }
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
 
 #copyright{
     color: white;
@@ -168,6 +175,11 @@ nav{
 
 .imagenDiferenciales{
     width: 60%;
+    transition: 500ms;
+}
+
+.imagenDiferenciales:hover{
+    opacity: 0.5;
 }
 
 .items{
@@ -181,4 +193,8 @@ nav{
 .contenido-mapa{
     width: 940px;
     margin: 0 auto;
+}
+
+.items:before{
+    content: "★";
 }
